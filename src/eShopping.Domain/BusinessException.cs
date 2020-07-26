@@ -2,7 +2,7 @@
 
 namespace eShopping.Domain
 {
-    public class BusinessException:Exception
+    public class BusinessException : Exception
     {
         public BusinessException()
         {

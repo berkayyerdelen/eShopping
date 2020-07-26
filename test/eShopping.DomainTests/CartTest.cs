@@ -80,7 +80,7 @@ namespace eShopping.DomainTests
 
             var campaignDiscount = cart.GetCampaignDiscount();
 
-            Assert.Equal(12.5, campaignDiscount);
+            Assert.Equal(7.5, campaignDiscount);
         }
 
         [Fact]
@@ -88,9 +88,7 @@ namespace eShopping.DomainTests
         {
             var cart = new Cart();
             var deliveryCost = cart.GetDeliveryCost();
-            Assert.Equal(3,deliveryCost);
-            
-        }
-        
+            Assert.Equal(3,deliveryCost);           
+        }      
     }
 }

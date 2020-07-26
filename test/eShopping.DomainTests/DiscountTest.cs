@@ -37,7 +37,19 @@ namespace eShopping.DomainTests
             var calculatedDiscount = MockDiscount.Object.Calculate(DiscountType.Amount, 100, 20);
         }
 
-      
+        [Fact]
+        public void Discount_Should_Return_Business_Exception()
+        {
+            MockDiscount.Setup(x => x.Calculate(DiscountType.Amount, 101, 20)).Throws<BusinessException>();
+
+            var exception = Record.Exception(() =>
+             {
+                 MockDiscount.Object.Calculate(DiscountType.Amount, 101, 20);
+             });
+            Assert.IsType<BusinessException>(exception);
+        }
+
+
 
     }
 
