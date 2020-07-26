@@ -1,4 +1,5 @@
-﻿using eShopping.Domain.ShoppingCart.Enums;
+﻿using eShopping.Domain;
+using eShopping.Domain.ShoppingCart.Enums;
 using eShopping.Domain.ShoppingCart.ValueObject;
 using Moq;
 using Xunit;
@@ -17,7 +18,7 @@ namespace eShopping.DomainTests
         public void Discount_ShouldCalculate_When_DiscountType_Amount()
         {
             MockDiscount.Setup(x => x.Calculate(DiscountType.Amount, 100, 20)).Returns(20);
-            var calculatedDiscount =MockDiscount.Object.Calculate(DiscountType.Amount, 100, 20);
+            var calculatedDiscount = MockDiscount.Object.Calculate(DiscountType.Amount, 100, 20);
             Assert.Equal(20, calculatedDiscount);
         }
 
@@ -36,6 +37,8 @@ namespace eShopping.DomainTests
             var calculatedDiscount = MockDiscount.Object.Calculate(DiscountType.Amount, 100, 20);
         }
 
+      
+
     }
-    
+
 }
