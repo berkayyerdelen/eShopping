@@ -95,3 +95,6 @@ D:\repos\eShopping\test\eShopping.DomainTests\obj\Debug\netcoreapp3.1\eShopping.
 D:\repos\eShopping\test\eShopping.DomainTests\obj\Debug\netcoreapp3.1\eShopping.DomainTests.dll
 D:\repos\eShopping\test\eShopping.DomainTests\obj\Debug\netcoreapp3.1\eShopping.DomainTests.pdb
 D:\repos\eShopping\test\eShopping.DomainTests\obj\Debug\netcoreapp3.1\eShopping.DomainTests.genruntimeconfig.cache
+D:\repos\eShopping\test\eShopping.DomainTests\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\repos\eShopping\test\eShopping.DomainTests\bin\Debug\netcoreapp3.1\Moq.dll
+D:\repos\eShopping\test\eShopping.DomainTests\obj\Debug\netcoreapp3.1\eShopping.DomainTests.csproj.CoreCompileInputs.cache
