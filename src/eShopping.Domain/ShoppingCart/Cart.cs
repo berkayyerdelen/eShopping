@@ -7,7 +7,7 @@ using eShopping.Domain.ShoppingCart.ValueObject;
 
 namespace eShopping.Domain.ShoppingCart
 {
-    public class Cart:AggregateRoot, ICartRepository
+    public class Cart : AggregateRoot, ICartRepository
     {
         public List<Product> Products { get; private set; } = new List<Product>();
         private double TotalAmount
@@ -43,7 +43,7 @@ namespace eShopping.Domain.ShoppingCart
         public double GetCouponDiscount()
         {
             //var coupon = new Coupon(1, 5, "Rate");
-            var coupon = new Coupon(10,DiscountType.Rate,5);
+            var coupon = new Coupon(10, DiscountType.Rate, 5);
 
             var couponDiscountPriceValue = coupon.GetCouponDiscount(TotalAmount);
 
@@ -53,14 +53,13 @@ namespace eShopping.Domain.ShoppingCart
 
         public double GetCampaignDiscount()
         {
-            var campaings = new List<Campaign>(){
+            var campaings = new List<Campaign>()
+            {
 
-                //new Campaign(new Category("book"), 10, "Amount", 2),
-
-                //new Campaign(new Category("clothes"), 10, "Amount", 4),
-
-                //new Campaign(new Category("food"), 10, "Rate", 2)};
-
+                new Campaign(new Category("Laptop"), 10, DiscountType.Rate),
+                new Campaign(new Category("Watch"), 10, DiscountType.Amount),
+                new Campaign(new Category("TV"), 10, DiscountType.Rate)
+            };
 
             var categorisedProduct = GroupProductByCategory();
 
@@ -102,6 +101,13 @@ namespace eShopping.Domain.ShoppingCart
             return Products.GroupBy(p => p.Category.Title).Count();
         }
 
+        public double GetDeliveryCost()
+        {
+            var delivery = new Delivery(5, 1, 2.99);
 
+            var deliveryAmount = delivery.Calculate(this);
+
+            return deliveryAmount;
+        }
     }
 }
