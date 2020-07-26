@@ -20,7 +20,7 @@ namespace eShopping.Domain.ShoppingCart
 
         public void AddProduct(Product product, int quantity)
         {
-            for (int i = 0; i <= quantity; i++)
+            for (int i = 0; i < quantity; i++)
             {
                 Products.Add(product);
             }
@@ -37,12 +37,16 @@ namespace eShopping.Domain.ShoppingCart
 
             var couponDiscountAmount = GetCouponDiscount();
 
+            if (TotalAmount - campaignDiscountAmount - couponDiscountAmount<0)
+            {
+               throw new BusinessException("Total amount should be greather than 0");
+            }
             return TotalAmount - campaignDiscountAmount - couponDiscountAmount;
         }
 
         public double GetCouponDiscount()
         {
-            //var coupon = new Coupon(1, 5, "Rate");
+           
             var coupon = new Coupon(10, DiscountType.Rate, 5);
 
             var couponDiscountPriceValue = coupon.GetCouponDiscount(TotalAmount);
@@ -50,22 +54,18 @@ namespace eShopping.Domain.ShoppingCart
             return couponDiscountPriceValue;
         }
 
-
         public double GetCampaignDiscount()
         {
             var campaings = new List<Campaign>()
             {
-
-                new Campaign(new Category("Laptop"), 10, DiscountType.Rate),
-                new Campaign(new Category("Watch"), 10, DiscountType.Amount),
-                new Campaign(new Category("TV"), 10, DiscountType.Rate)
+                new Campaign(new Category("Laptop"), 10, DiscountType.Rate,4),
+                new Campaign(new Category("Watch"), 10, DiscountType.Amount,5),
+                new Campaign(new Category("TV"), 10, DiscountType.Rate,2)
             };
 
             var categorisedProduct = GroupProductByCategory();
 
-
             var campaignValue = default(double);
-
 
             foreach (var category in categorisedProduct)
             {
@@ -103,7 +103,7 @@ namespace eShopping.Domain.ShoppingCart
 
         public double GetDeliveryCost()
         {
-            var delivery = new Delivery(5, 1, 2.99);
+            var delivery = new Delivery(5, 1, 3);
 
             var deliveryAmount = delivery.Calculate(this);
 

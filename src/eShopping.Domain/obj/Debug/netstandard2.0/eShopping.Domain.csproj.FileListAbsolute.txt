@@ -1,0 +1,8 @@
+D:\repos\eShopping\src\eShopping.Domain\bin\Debug\netstandard2.0\eShopping.Domain.deps.json
+D:\repos\eShopping\src\eShopping.Domain\bin\Debug\netstandard2.0\eShopping.Domain.dll
+D:\repos\eShopping\src\eShopping.Domain\bin\Debug\netstandard2.0\eShopping.Domain.pdb
+D:\repos\eShopping\src\eShopping.Domain\obj\Debug\netstandard2.0\eShopping.Domain.AssemblyInfoInputs.cache
+D:\repos\eShopping\src\eShopping.Domain\obj\Debug\netstandard2.0\eShopping.Domain.AssemblyInfo.cs
+D:\repos\eShopping\src\eShopping.Domain\obj\Debug\netstandard2.0\eShopping.Domain.csproj.CoreCompileInputs.cache
+D:\repos\eShopping\src\eShopping.Domain\obj\Debug\netstandard2.0\eShopping.Domain.dll
+D:\repos\eShopping\src\eShopping.Domain\obj\Debug\netstandard2.0\eShopping.Domain.pdb

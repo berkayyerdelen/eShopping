@@ -6,8 +6,6 @@ namespace eShopping.Domain.ShoppingCart
     public interface ICartRepository
     {
         void AddProduct(Product product, int quantity);
-
-
         int GetProductCount();
         int CategoryCount();
         double GetTotalAmountAfterDiscounts();

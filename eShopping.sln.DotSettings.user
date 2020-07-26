@@ -1,0 +1,14 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0c08ec05_002D49ef_002D4c43_002Da808_002D3a0b86b8a376/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BusinessExceptionTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::8C413A12-E0B8-4430-89D9-A7BEBFCC6FDA::.NETCoreApp,Version=v3.1::eShopping.DomainTests.BusinessExceptionTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::8C413A12-E0B8-4430-89D9-A7BEBFCC6FDA::.NETCoreApp,Version=v3.1::eShopping.DomainTests.CartTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::8C413A12-E0B8-4430-89D9-A7BEBFCC6FDA::.NETCoreApp,Version=v3.1::eShopping.DomainTests.CampaignTest.Campaign_Should_Create_When_ParameterIsValid&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::8C413A12-E0B8-4430-89D9-A7BEBFCC6FDA::.NETCoreApp,Version=v3.1::eShopping.DomainTests.CampaignTest.Campaign_Should_CreateWithZeroItem_When_ItemCountLessThanZero&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::8C413A12-E0B8-4430-89D9-A7BEBFCC6FDA::.NETCoreApp,Version=v3.1::eShopping.DomainTests.CategoryTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::8C413A12-E0B8-4430-89D9-A7BEBFCC6FDA::.NETCoreApp,Version=v3.1::eShopping.DomainTests.CouponTest.Coupon_ShouldReturn_CalculateWithUsedCoupon&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::8C413A12-E0B8-4430-89D9-A7BEBFCC6FDA::.NETCoreApp,Version=v3.1::eShopping.DomainTests.CouponTest.Coupon_Should_CalculatedWithoutUsedCoupen&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::8C413A12-E0B8-4430-89D9-A7BEBFCC6FDA::.NETCoreApp,Version=v3.1::eShopping.DomainTests.CouponTest.Coupon_Should_CalculatedWithoutUsedCoupon&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::8C413A12-E0B8-4430-89D9-A7BEBFCC6FDA::.NETCoreApp,Version=v3.1::eShopping.DomainTests.CouponTest.Coupon_ShouldReturn_CouponDiscountTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
