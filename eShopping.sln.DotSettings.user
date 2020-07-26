@@ -13,5 +13,7 @@
     &lt;TestId&gt;xUnit::8C413A12-E0B8-4430-89D9-A7BEBFCC6FDA::.NETCoreApp,Version=v3.1::eShopping.DomainTests.DiscountTest.Discount_ShouldCalculate_When_DiscountType_Amount&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::8C413A12-E0B8-4430-89D9-A7BEBFCC6FDA::.NETCoreApp,Version=v3.1::eShopping.DomainTests.DiscountTest.Discount_ShouldCalculate_When_DiscountType_Rate&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::8C413A12-E0B8-4430-89D9-A7BEBFCC6FDA::.NETCoreApp,Version=v3.1::eShopping.DomainTests.DiscountTest.Discount_Should_ThrowBusinessException_When_DiscountType_Amount_And_Amount_is_Greater_Than_CardAmount&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::8C413A12-E0B8-4430-89D9-A7BEBFCC6FDA::.NETCoreApp,Version=v3.1::eShopping.DomainTests.DeliveryTest.Delivery_Should_CreateDelivery&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::8C413A12-E0B8-4430-89D9-A7BEBFCC6FDA::.NETCoreApp,Version=v3.1::eShopping.DomainTests.DeliveryTest.Delivery_Should_Calculate&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
