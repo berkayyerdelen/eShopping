@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\eShopping\\test\\eShopping.DomainTests\\eShopping.DomainTests.csproj": {}
+    "C:\\Users\\byerdelen\\Source\\Repos\\eShopping\\test\\eShopping.DomainTests\\eShopping.DomainTests.csproj": {}
   },
   "projects": {
-    "D:\\repos\\eShopping\\src\\eShopping.Domain\\eShopping.Domain.csproj": {
+    "C:\\Users\\byerdelen\\Source\\Repos\\eShopping\\src\\eShopping.Domain\\eShopping.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\eShopping\\src\\eShopping.Domain\\eShopping.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\byerdelen\\Source\\Repos\\eShopping\\src\\eShopping.Domain\\eShopping.Domain.csproj",
         "projectName": "eShopping.Domain",
-        "projectPath": "D:\\repos\\eShopping\\src\\eShopping.Domain\\eShopping.Domain.csproj",
-        "packagesPath": "C:\\Users\\Berkay Yerdelen\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\eShopping\\src\\eShopping.Domain\\obj\\",
+        "projectPath": "C:\\Users\\byerdelen\\Source\\Repos\\eShopping\\src\\eShopping.Domain\\eShopping.Domain.csproj",
+        "packagesPath": "C:\\Users\\byerdelen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\byerdelen\\Source\\Repos\\eShopping\\src\\eShopping.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Berkay Yerdelen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\byerdelen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,21 +55,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\repos\\eShopping\\test\\eShopping.DomainTests\\eShopping.DomainTests.csproj": {
+    "C:\\Users\\byerdelen\\Source\\Repos\\eShopping\\test\\eShopping.DomainTests\\eShopping.DomainTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\eShopping\\test\\eShopping.DomainTests\\eShopping.DomainTests.csproj",
+        "projectUniqueName": "C:\\Users\\byerdelen\\Source\\Repos\\eShopping\\test\\eShopping.DomainTests\\eShopping.DomainTests.csproj",
         "projectName": "eShopping.DomainTests",
-        "projectPath": "D:\\repos\\eShopping\\test\\eShopping.DomainTests\\eShopping.DomainTests.csproj",
-        "packagesPath": "C:\\Users\\Berkay Yerdelen\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\eShopping\\test\\eShopping.DomainTests\\obj\\",
+        "projectPath": "C:\\Users\\byerdelen\\Source\\Repos\\eShopping\\test\\eShopping.DomainTests\\eShopping.DomainTests.csproj",
+        "packagesPath": "C:\\Users\\byerdelen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\byerdelen\\Source\\Repos\\eShopping\\test\\eShopping.DomainTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Berkay Yerdelen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\byerdelen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +82,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\repos\\eShopping\\src\\eShopping.Domain\\eShopping.Domain.csproj": {
-                "projectPath": "D:\\repos\\eShopping\\src\\eShopping.Domain\\eShopping.Domain.csproj"
+              "C:\\Users\\byerdelen\\Source\\Repos\\eShopping\\src\\eShopping.Domain\\eShopping.Domain.csproj": {
+                "projectPath": "C:\\Users\\byerdelen\\Source\\Repos\\eShopping\\src\\eShopping.Domain\\eShopping.Domain.csproj"
               }
             }
           }
@@ -133,7 +133,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
